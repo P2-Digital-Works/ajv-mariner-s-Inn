@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#133742">
+  <meta name="description" content="AJV Mariner's Inn in Tukuran, Zamboanga del Sur. Explore accommodation concepts and send a reservation inquiry. Concept website; property details require owner verification.">
+  <meta name="robots" content="noindex,nofollow">
+  <title>AJV Mariner's Inn | Your Stay in Tukuran · Concept Website</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;450;500;550;600;650;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/config.js" defer></script>
+  <script src="js/inquiry-utils.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+  <div class="demo-banner" role="note">
+    <span class="banner-indicator"></span>
+    <span><strong>Website concept</strong><span class="banner-sep">•</span> Room categories, illustrations and policies are examples, not confirmed property details.</span>
+    <button class="banner-link" type="button" data-open-owner>For the owner <span aria-hidden="true">↗</span></button>
+  </div>
+  <header class="site-header" id="top">
+    <div class="container nav-inner">
+      <a href="#top" class="brand" aria-label="AJV Mariner's Inn, home">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 52 52" fill="none"><path d="M8 31c12-14 25-14 36 0" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M9 38c11-11 24-11 34 0" stroke="currentColor" stroke-width="2.6" stroke-linecap="round"/><path d="M26 10v16m-9-10h18" stroke="currentColor" stroke-width="2.3" stroke-linecap="round"/></svg></span>
+        <span class="brand-text">AJV <strong>MARINER'S INN</strong><small>TUKURAN · ZAMBOANGA DEL SUR</small></span>
+      </a>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#rooms">Our rooms</a>
+        <a href="#experience">The experience</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#location">Find us</a>
+        <a href="#faq">FAQs</a>
+      </nav>
+      <div class="nav-actions">
+        <button type="button" class="text-action desktop-owner" data-open-owner>Owner preview</button>
+        <a href="#inquire" class="btn btn-primary nav-cta">Request a stay <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menuToggle" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="heroTitle">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> WELCOME TO TUKURAN</div>
+          <h1 id="heroTitle">A good night's stay, <em>made simple.</em></h1>
+          <p class="hero-lead">A thoughtful place to begin your stay in Tukuran, Zamboanga del Sur. Explore your options, choose your dates, and reach our team in just a few steps.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary btn-large" href="#rooms">Explore rooms <span aria-hidden="true">↗</span></a>
+            <a class="btn btn-quiet btn-large" href="#inquire">Plan your stay <span aria-hidden="true">→</span></a>
+          </div>
+          <div class="hero-bottom"><span class="scroll-deco">↘</span><span>Made for slower mornings &amp; easier arrivals.</span></div>
+        </div>
+        <div class="hero-art" aria-label="Illustration of a welcoming guest room, not a photograph of the property">
+          <img src="assets/hero-scene.svg" alt="Illustrated cozy guest room with soft linen and a sunlit arched window. Concept artwork, not the actual inn." fetchpriority="high">
+          <div class="art-overlay"><span class="circle-symbol">✳</span><div><span class="art-overlay-eyebrow">A PLACE TO UNWIND</span><strong>Come in. Feel at ease.</strong></div></div>
+          <span class="image-disclaimer">ILLUSTRATIVE ARTWORK · NOT ACTUAL PROPERTY</span>
+        </div>
+      </div>
+      <div class="container hero-micro"><span><i class="micro-dot"></i> In Tukuran, Zamboanga del Sur</span><span class="hero-micro-mid">A simple way to plan your next visit</span><a href="#location">Discover the location <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="quick-booking" id="inquire" aria-labelledby="bookingTitle">
+      <div class="container">
+        <div class="booking-heading"><div><span class="kicker">START YOUR STAY</span><h2 id="bookingTitle">Tell us when you're coming.</h2></div><span class="booking-note"><span class="status-circle"></span> Requests only. Staff confirmation required.</span></div>
+        <form class="booking-form" id="quickSearchForm">
+          <label class="booking-field"><span class="field-title">Check-in</span><input type="date" name="checkin" id="quickCheckin" required aria-label="Check-in date"></label>
+          <label class="booking-field"><span class="field-title">Check-out</span><input type="date" name="checkout" id="quickCheckout" required aria-label="Check-out date"></label>
+          <label class="booking-field booking-guests"><span class="field-title">Guests</span><select id="quickGuests" name="guests"><option value="1">1 guest</option><option value="2" selected>2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option></select></label>
+          <button type="submit" class="btn btn-primary booking-submit">Continue to inquiry <span aria-hidden="true">↗</span></button>
+        </form>
+        <p id="searchNotice" class="search-notice" role="status" aria-live="polite">The form prepares an inquiry; it does not check live availability.</p>
+      </div>
+    </section>
+
+    <section class="section rooms-section" id="rooms" aria-labelledby="roomsTitle">
+      <div class="container">
+        <div class="section-head"><div><p class="kicker">YOUR SPACE TO REST</p><h2 id="roomsTitle">Find a room that <em>feels right.</em></h2></div><p>Room concepts are shown to demonstrate the future booking experience. Actual room types, capacity, amenities, and rates will be supplied by the owner.</p></div>
+        <div class="room-grid" id="roomGrid">
+          <article class="room-card" data-room="classic" data-capacity="2">
+            <div class="room-image"><img src="assets/room-classic.svg" alt="Illustrative design for a classic room concept, not a property photograph" loading="lazy"><span class="image-label">ILLUSTRATION · DEMO ONLY</span><span class="room-index">01 / 03</span></div>
+            <div class="room-info"><div class="room-title-row"><h3>Classic Room <small>Concept</small></h3><span class="occupancy">◌ Up to 2*</span></div><p>An example layout designed for a solo traveler or two guests.</p><div class="room-bottom"><span>Rate on inquiry</span><button type="button" data-room-select="classic">View room <span aria-hidden="true">↗</span></button></div></div>
+          </article>
+          <article class="room-card" data-room="twin" data-capacity="2">
+            <div class="room-image"><img src="assets/room-twin.svg" alt="Illustrative design for a twin-bed room concept, not a property photograph" loading="lazy"><span class="image-label">ILLUSTRATION · DEMO ONLY</span><span class="room-index">02 / 03</span></div>
+            <div class="room-info"><div class="room-title-row"><h3>Twin Room <small>Concept</small></h3><span class="occupancy">◌ Up to 2*</span></div><p>An example two-bed option for friends or colleagues.</p><div class="room-bottom"><span>Rate on inquiry</span><button type="button" data-room-select="twin">View room <span aria-hidden="true">↗</span></button></div></div>
+          </article>
+          <article class="room-card" data-room="family" data-capacity="4">
+            <div class="room-image"><img src="assets/room-family.svg" alt="Illustrative design for a family room concept, not a property photograph" loading="lazy"><span class="image-label">ILLUSTRATION · DEMO ONLY</span><span class="room-index">03 / 03</span></div>
+            <div class="room-info"><div class="room-title-row"><h3>Family Room <small>Concept</small></h3><span class="occupancy">◌ Up to 4*</span></div><p>An example spacious option for families or small groups.</p><div class="room-bottom"><span>Rate on inquiry</span><button type="button" data-room-select="family">View room <span aria-hidden="true">↗</span></button></div></div>
+          </article>
+        </div>
+        <p class="fine-print">* Sample capacity only. These three room categories are not verified inventory or promises of availability.</p>
+      </div>
+    </section>
+
+    <section class="section story-section" id="experience" aria-labelledby="storyTitle">
+      <div class="container story-grid"><div class="story-art"><div class="arch-window"><span class="art-sun"></span><span class="art-hill art-hill-back"></span><span class="art-hill art-hill-front"></span><span class="art-road"></span></div><div class="quote-card"><span>✳</span><p>Some stays are about the destination. The best ones make the journey feel easier.</p><small>WEBSITE DESIGN CONCEPT</small></div><span class="story-illustration-label">ABSTRACT ART · NOT PROPERTY PHOTOGRAPHY</span></div><div class="story-copy"><p class="kicker">MADE FOR REAL TRAVEL</p><h2 id="storyTitle">A little more ease, <em>at every step.</em></h2><p>Good accommodation information should be easy to find. Our concept puts the details guests need in one place, from room choices and inquiry dates to directions and a clear path to contact staff.</p><div class="feature-list"><div><span class="feature-number">01</span><div><h3>Explore before you arrive</h3><p>One place for photos, room information, and practical details once the owner supplies them.</p></div></div><div><span class="feature-number">02</span><div><h3>Ask without the back-and-forth</h3><p>Share your stay dates and number of guests in a structured request.</p></div></div><div><span class="feature-number">03</span><div><h3>Know what happens next</h3><p>Every request clearly remains pending until the inn confirms it directly.</p></div></div></div></div></div>
+    </section>
+
+    <section class="section gallery-section" id="gallery" aria-labelledby="galleryTitle"><div class="container"><div class="section-head section-head-invert"><div><p class="kicker">A CLOSER LOOK</p><h2 id="galleryTitle">Picture your <em>next stay.</em></h2></div><p>Actual property photography will replace these visual placeholders before the website is publicly launched.</p></div><div class="gallery-layout"><div class="gallery-main gallery-tile"><img src="assets/hero-scene.svg" alt="Illustrated guest-room concept, not a real photo" loading="lazy"><div class="gallery-caption"><span>01 / THE ATMOSPHERE</span><strong>A warmer welcome</strong></div></div><div class="gallery-side"><div class="gallery-tile"><img src="assets/room-twin.svg" alt="Illustrated twin-room concept, not a real photo" loading="lazy"><div class="gallery-caption"><span>02 / THE ROOMS</span><strong>Room to settle in</strong></div></div><div class="gallery-tile gallery-placeholder"><span class="placeholder-icon">✳</span><strong>Your story, in real photographs.</strong><small>Exterior, rooms and amenities · photography needed</small></div></div></div><div class="gallery-foot"><span>ALL VISUALS ARE CONCEPTUAL ILLUSTRATIONS</span><a href="#location">Plan your visit <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="section steps-section" aria-labelledby="stepsTitle"><div class="container"><div class="center-head"><p class="kicker">HOW IT WORKS</p><h2 id="stepsTitle">Just a few steps <em>to get started.</em></h2><p>A clear reservation inquiry process, designed to save time for both guests and staff.</p></div><div class="steps-grid"><div class="step-card"><span class="step-id">01</span><span class="step-icon" aria-hidden="true">⌕</span><h3>Choose your dates</h3><p>Select the check-in and check-out dates and tell us how many guests will be joining.</p></div><div class="step-card"><span class="step-id">02</span><span class="step-icon" aria-hidden="true">✎</span><h3>Send an inquiry</h3><p>Share your preferred room and contact information through a quick form.</p></div><div class="step-card"><span class="step-id">03</span><span class="step-icon" aria-hidden="true">✓</span><h3>Wait for confirmation</h3><p>The team checks availability and contacts you. An inquiry is not a confirmed booking.</p></div></div><div class="steps-cta"><a href="#inquire" class="btn btn-primary btn-large">Start a reservation inquiry <span aria-hidden="true">↗</span></a></div></div></section>
+
+    <section class="section location-section" id="location" aria-labelledby="locationTitle"><div class="container location-grid"><div class="location-copy"><p class="kicker">FIND YOUR WAY</p><h2 id="locationTitle">Right here in <em>Tukuran.</em></h2><p>For visitors coming to town, finding the inn should be straightforward.</p><div class="address-block"><span class="address-pin">⌖</span><div><span>PUBLICLY LISTED LOCATION</span><strong>V. Enriquez Street<br>Tukuran, Zamboanga del Sur<br>Philippines 7019</strong><small>Exact entrance and map pin require owner confirmation.</small></div></div><a class="btn btn-outline btn-large" href="https://www.google.com/maps/search/?api=1&amp;query=AJV%20Mariner%27s%20Inn%2C%20V.%20Enriquez%20Street%2C%20Tukuran%2C%20Zamboanga%20del%20Sur" target="_blank" rel="noopener noreferrer">Open Google Maps <span aria-hidden="true">↗</span></a></div><div class="map-panel" role="img" aria-label="Decorative map-style illustration, not a geographic map. Use the Open Google Maps link for navigation."><div class="map-road horizontal one"></div><div class="map-road horizontal two"></div><div class="map-road vertical three"></div><div class="map-road diagonal four"></div><div class="map-green green-one"></div><div class="map-green green-two"></div><div class="map-pin-card"><span class="map-pin-dot">✳</span><div><small>DESTINATION</small><strong>AJV Mariner's Inn</strong><span>Tukuran, Zamboanga del Sur</span></div></div><div class="map-legend">NOT A NAVIGATION MAP · ILLUSTRATIVE</div></div></div></section>
+
+    <section class="section faq-section" id="faq" aria-labelledby="faqTitle"><div class="container faq-grid"><div><p class="kicker">GOOD TO KNOW</p><h2 id="faqTitle">A few things <em>to know.</em></h2><p class="faq-intro">We want guests to have the right information before making plans. Official policies will be published after the owner confirms them.</p></div><div class="faq-list"><details><summary>Are room prices final on the website?<span aria-hidden="true">+</span></summary><p>No rates are published in this concept. The staff must confirm pricing, inclusions, and any additional charges.</p></details><details><summary>Does submitting an inquiry reserve a room?<span aria-hidden="true">+</span></summary><p>No. A reservation inquiry is not a confirmed booking. Staff must verify availability and reply with a confirmation.</p></details><details><summary>What are the check-in and check-out times?<span aria-hidden="true">+</span></summary><p>Official times have not been verified. Contact the inn directly once the owner-approved contact information is published.</p></details><details><summary>Can I pay for a room online?<span aria-hidden="true">+</span></summary><p>This MVP does not collect payments. Payment methods and policies must be confirmed by the inn.</p></details></div></div></section>
+
+    <section class="closing-section"><div class="container closing-inner"><div><p class="kicker">WHENEVER YOU'RE READY</p><h2>Let's make room <em>for your next trip.</em></h2><p>Start with an inquiry. A staff member can confirm availability and next steps.</p></div><a href="#inquire" class="btn btn-light btn-large">Request a stay <span aria-hidden="true">↗</span></a></div></section>
+  </main>
+  <footer class="footer"><div class="container footer-top"><div><a href="#top" class="footer-brand">AJV <strong>MARINER'S INN</strong></a><p>A proposed digital welcome for guests visiting Tukuran, Zamboanga del Sur.</p></div><div class="footer-links"><div><strong>EXPLORE</strong><a href="#rooms">Rooms</a><a href="#gallery">Gallery</a><a href="#location">Directions</a></div><div><strong>GOOD TO KNOW</strong><a href="#faq">FAQs</a><a href="#inquire">Reservation inquiry</a><button type="button" data-open-owner>For the owner</button></div></div></div><div class="container footer-bottom"><span>© <span id="copyrightYear"></span> AJV Mariner's Inn · Design concept, not an official live booking service.</span><span>Concept by <strong>P2 Digital Works</strong></span></div></footer>
+  <div class="mobile-sticky"><a href="#inquire" class="btn btn-primary">Request a stay <span aria-hidden="true">↗</span></a></div>
+
+  <dialog id="inquiryDialog" class="modal inquiry-dialog" aria-labelledby="inquiryTitle"><div class="dialog-head"><div><span class="kicker">RESERVATION INQUIRY</span><h2 id="inquiryTitle">Let's plan your stay.</h2></div><button type="button" class="modal-close" data-close-dialog="inquiryDialog" aria-label="Close inquiry form">×</button></div>
+    <div id="inquiryIntro"><p>Complete the details below. <strong>This is a request, not a confirmed reservation.</strong></p><div class="form-status" id="formModeNotice" role="note"></div><button type="button" class="demo-fill" id="fillDemoInquiry" hidden>Use sample guest details for the owner demo <span aria-hidden="true">↗</span></button>
+      <form id="inquiryForm" name="reservation-inquiry" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="reservation-inquiry">
+        <input type="hidden" name="reference" value="">
+        <input type="hidden" name="status" value="Pending staff confirmation">
+        <p class="honeypot"><label>Do not fill this out <input name="bot-field" autocomplete="off"></label></p>
+        <div class="form-grid"><label class="field"><span>Check-in date <b>*</b></span><input type="date" id="formCheckin" name="checkin" required></label><label class="field"><span>Check-out date <b>*</b></span><input type="date" id="formCheckout" name="checkout" required></label><label class="field"><span>Preferred room <b>*</b></span><select id="formRoom" name="room" required><option value="">Select a concept room</option><option value="classic">Classic Room Concept</option><option value="twin">Twin Room Concept</option><option value="family">Family Room Concept</option><option value="other">Ask staff for options</option></select></label><label class="field"><span>Number of guests <b>*</b></span><select id="formGuests" name="guests" required><option value="1">1 guest</option><option value="2">2 guests</option><option value="3">3 guests</option><option value="4">4 guests</option><option value="5">5 guests</option><option value="6">6 guests</option></select></label><label class="field"><span>Full name <b>*</b></span><input name="name" id="formName" type="text" maxlength="90" autocomplete="name" placeholder="Your full name" required></label><label class="field"><span>Email address <b>*</b></span><input name="email" id="formEmail" type="email" maxlength="150" autocomplete="email" placeholder="you@example.com" required></label><label class="field full"><span>Contact number <span class="optional">(optional)</span></span><input name="phone" type="tel" maxlength="30" autocomplete="tel" placeholder="e.g. +63 9xx xxx xxxx"></label><label class="field full"><span>Additional notes <span class="optional">(optional)</span></span><textarea name="message" rows="3" maxlength="500" placeholder="Arrival time, room requests, or other questions"></textarea></label></div>
+        <div class="form-error" id="inquiryError" role="alert" hidden></div><label class="consent-row"><input type="checkbox" name="consent" required><span>I understand that this is an inquiry and <strong>not a confirmed reservation</strong>. I agree to be contacted about my request.</span></label><button id="submitInquiry" type="submit" class="btn btn-primary btn-submit">Submit inquiry <span aria-hidden="true">↗</span></button>
+        <p class="privacy-note">Demo mode keeps this information only in your browser. Live Netlify Forms requires owner-approved privacy information and consent procedures.</p>
+      </form>
+    </div>
+    <div id="inquirySuccess" class="success-panel" role="status" aria-live="polite" hidden><span class="success-symbol">✓</span><h3>Inquiry received</h3><p id="successMessage">Your request has been recorded for demonstration.</p><div class="ref-box"><span>REFERENCE</span><strong id="inquiryReference">DEMO-000000</strong><small>Status: Pending staff confirmation</small></div><button type="button" class="btn btn-primary" data-close-dialog="inquiryDialog">Done</button></div>
+  </dialog>
+
+  <dialog id="roomDialog" class="modal room-dialog" aria-labelledby="roomDialogTitle"><div class="room-dialog-image"><img id="roomDialogImage" src="assets/room-classic.svg" alt="Illustrated room concept"></div><div class="room-dialog-body"><button type="button" class="modal-close room-dialog-close" data-close-dialog="roomDialog" aria-label="Close room details">×</button><span class="kicker">CONCEPT ROOM · NOT VERIFIED INVENTORY</span><h2 id="roomDialogTitle">Classic Room Concept</h2><p id="roomDialogDescription">Room description</p><div class="room-dialog-highlight"><span>Nightly rate</span><strong>Ask the inn for rates</strong></div><div class="room-dialog-highlight"><span>Occupancy</span><strong id="roomDialogGuests">Example: up to 2 guests</strong></div><p class="fine-print">Room layout, amenities, capacity and availability must be confirmed by the owner. No booking is confirmed by this website.</p><button type="button" class="btn btn-primary btn-submit" id="chooseRoomBtn">Request this room <span aria-hidden="true">↗</span></button></div></dialog>
+
+  <dialog id="ownerDialog" class="modal owner-dialog" aria-labelledby="ownerTitle"><div class="dialog-head"><div><span class="kicker">OWNER PRESENTATION</span><h2 id="ownerTitle">Your inn, online.</h2></div><button type="button" class="modal-close" data-close-dialog="ownerDialog" aria-label="Close owner presentation">×</button></div><p class="owner-lede">A working demonstration of how direct guest inquiries could be handled, without making false promises about room availability.</p><div class="owner-stat-grid"><div><span>01</span><strong>Be discoverable</strong><small>Mobile-friendly rooms, location and business details.</small></div><div><span>02</span><strong>Capture inquiries</strong><small>Structured guest dates and contact information.</small></div><div><span>03</span><strong>Stay in control</strong><small>Staff verifies every request before confirming.</small></div></div><div class="owner-actions"><button type="button" id="openDemoInbox" class="btn btn-primary">View demo inquiry inbox <span aria-hidden="true">↗</span></button><button type="button" id="tryDemoInquiry" class="btn btn-outline">Try guest booking flow</button></div><div class="owner-check"><h3>Required before a public launch</h3><ul><li>Written approval of property name, exact address and map pin</li><li>Real room names, occupancy, photographs, prices and inclusions</li><li>Verified telephone, email, Messenger and staff notification recipients</li><li>Check-in/out, cancellation, deposits and privacy policies</li><li>Switch the inquiry endpoint from demo to Netlify Forms and test notifications</li></ul></div><p class="owner-notice">By default, demo inquiries are stored only on the current device. They are not sent to the inn or to P2 Digital Works.</p></dialog>
+
+  <dialog id="inboxDialog" class="modal inbox-dialog" aria-labelledby="inboxTitle"><div class="dialog-head"><div><span class="kicker">BROWSER-ONLY DEMONSTRATION</span><h2 id="inboxTitle">Demo inquiry inbox</h2></div><button type="button" class="modal-close" data-close-dialog="inboxDialog" aria-label="Close demo inbox">×</button></div><p>Requests submitted in this browser's <strong>demo mode</strong> appear below. No inquiry is sent to a real guest-service team.</p><div id="inboxContent" class="inbox-content"></div><div class="inbox-actions"><button id="clearInbox" type="button" class="btn btn-outline">Clear demo requests</button><button id="exportInbox" type="button" class="btn btn-primary">Export demo CSV <span aria-hidden="true">↓</span></button></div></dialog>
+  <noscript><div class="noscript-warning">JavaScript is required for the interactive inquiry demonstration. Property and location information remain available above.</div></noscript>
+</body>
+</html>

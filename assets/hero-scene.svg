@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 940" role="img" aria-labelledby="title desc">
+<title id="title">Conceptual guestroom illustration</title><desc id="desc">An illustrated interior with a bed, an archway, and seaside-inspired colors. This is not a photograph of the inn.</desc>
+<defs>
+  <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ebe4d6"/><stop offset="1" stop-color="#d9d1c3"/></linearGradient>
+  <linearGradient id="floor" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#c5a992"/><stop offset="1" stop-color="#ad8e76"/></linearGradient>
+  <linearGradient id="window" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a2d0cc"/><stop offset=".56" stop-color="#d5e2d1"/><stop offset=".57" stop-color="#bbd1c2"/><stop offset="1" stop-color="#739d93"/></linearGradient>
+  <linearGradient id="duvet" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fffdf8"/><stop offset="1" stop-color="#ddd4c5"/></linearGradient>
+  <linearGradient id="sheet" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#e8efeb"/><stop offset="1" stop-color="#a7c4c0"/></linearGradient>
+  <filter id="shadow"><feGaussianBlur stdDeviation="14"/></filter>
+</defs>
+<rect width="860" height="940" fill="url(#wall)"/>
+<path d="M0 653 H860 V940 H0Z" fill="url(#floor)"/><path d="M0 652H860" stroke="#d1bba6" stroke-width="8"/>
+<path d="M100 637V208C100 108 160 56 251 56s150 60 150 154v427Z" fill="#f9f5ed"/><path d="M122 632V211c0-79 51-129 129-129s128 54 128 129v421Z" fill="url(#window)"/>
+<path d="M122 472C176 442 208 463 257 435S337 430 379 416V632H122Z" fill="#8dac98" opacity=".65"/><path d="M122 532C181 516 219 525 264 507s68 2 115-11v137H122Z" fill="#668e80" opacity=".76"/>
+<path d="M251 82V632M122 361H379" stroke="#f9f5ed" stroke-width="15"/>
+<path d="M77 610V226C77 130 128 58 179 48c-62 76-59 152-59 232v330Z" fill="#eee1d0" opacity=".95"/><path d="M422 610V226c0-96-48-164-99-178 61 76 58 152 58 232v330Z" fill="#eee1d0" opacity=".95"/>
+<ellipse cx="486" cy="820" rx="345" ry="53" fill="#574635" opacity=".14" filter="url(#shadow)"/>
+<rect x="299" y="444" width="501" height="271" rx="35" fill="#173945"/><rect x="326" y="462" width="445" height="230" rx="24" fill="#234e55"/>
+<path d="M197 681L318 578H776L844 707V825L719 870H275L197 825Z" fill="#9c8d78"/>
+<path d="M191 685L309 574H779L854 703 732 804H286Z" fill="url(#duvet)"/>
+<path d="M301 566l10-67q6-18 26-19h163q24 0 27 23l8 70Z" fill="#f6f2e9"/><path d="M545 569l7-65q4-23 25-23h154q25 0 29 24l6 63Z" fill="#f6f2e9"/>
+<path d="M191 683l113-91h477l73 110-123 99H286Z" fill="url(#sheet)"/><path d="M205 695l106-82h467l60 87-116 89H290Z" fill="url(#duvet)"/>
+<path d="M294 785l-10 53h451l-13-53Z" fill="#e8ddd0"/><path d="M353 619c48 28 108 37 180 35M515 738c69 10 125 10 192-5" fill="none" stroke="#fff" stroke-width="7" opacity=".42"/>
+<rect x="640" y="516" width="199" height="16" rx="4" fill="#ae9278"/><rect x="660" y="531" width="16" height="128" fill="#9a806b"/><rect x="817" y="531" width="13" height="128" fill="#9a806b"/>
+<rect x="700" y="455" width="8" height="70" fill="#a4835b"/><path d="M673 460q31-71 64 0Z" fill="#efe6d8"/><path d="M684 464h42" stroke="#d3bfa5" stroke-width="3"/>
+<path d="M742 510l-10-63q35-30 52 0l-9 63Z" fill="#d0c0a7"/><path d="M755 447l-14-46M763 445l21-60M759 439l2-73" stroke="#6d8e71" stroke-width="8" stroke-linecap="round"/><ellipse cx="739" cy="398" rx="20" ry="8" transform="rotate(33 739 398)" fill="#557d64"/><ellipse cx="791" cy="379" rx="26" ry="9" transform="rotate(-36 791 379)" fill="#557d64"/><ellipse cx="764" cy="367" rx="14" ry="27" fill="#6b997c"/>
+<circle cx="519" cy="147" r="58" fill="#dfcaa8" opacity=".58"/><path d="M519 0v108" stroke="#b29577" stroke-width="5"/><path d="M480 139h79l-18 42h-45Z" fill="#faf5e9"/><path d="M474 139q44-60 92 0Z" fill="#f4eade"/>
+<path d="M0 878C140 835 251 853 346 893s301 43 514 1v46H0Z" fill="#a2816b" opacity=".36"/>
+</svg>
